@@ -2,9 +2,9 @@ package com.bridgelabz.generic_problem;
 
 public class MaximumNum {
 	
-	public static float getFloatMaxNum(Float x,Float y,Float z)
+	public static String getStringMaxNum(String x,String y,String z)
 	{
-		Float maxValue=x;
+		String maxValue=x;
 		if(y.compareTo(maxValue)>0)
 		maxValue=y;
 		if(z.compareTo(maxValue)>0)
