@@ -9,7 +9,7 @@ public class MaximumNum
 		maxValue=b;
 		if(c.compareTo(maxValue)>0)
 		maxValue=c;
-		return maxValue;
+		return MaxValue;
 		}	
 	}
 		
